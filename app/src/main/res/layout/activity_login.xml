@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LoginActivity"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:maxWidth="300dp"
+        android:drawablePadding="8dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/editText2"
+        android:layout_above="@+id/button"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:maxWidth="300dp"
+        android:drawablePadding="8dp"
+        android:id="@+id/editText3"
+        android:layout_above="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="Forgot Password ?"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="191dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/button"
+        android:minWidth="300dp"
+        android:layout_above="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:background="#8CBBBBBB" />
+
+</RelativeLayout>
